@@ -1,4 +1,4 @@
-from main import aboutdata, createplots, createsummary, df_to_markdown
+from main import aboutdata, createplots, createsummary
 
 
 def test_aboutdata():
