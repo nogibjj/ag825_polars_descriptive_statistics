@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: ["restore-branch"]
+    branches: ["main"]
   pull_request:
-    branches: ["restore-branch"]
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
