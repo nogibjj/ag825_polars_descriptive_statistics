@@ -89,25 +89,6 @@ def createsummary():
         return "checked"
 
 
-def df_to_markdown(df, file_path):
-    # Get column names and rows from the Polars DataFrame
-    columns = df.columns
-    rows = df.to_numpy()
-
-    # Create a Markdown table header
-    markdown = "| " + " | ".join(columns) + " |\n"
-    markdown += "| " + " | ".join(["---"] * len(columns)) + " |\n"
-
-    # Add rows to the Markdown table
-    for row in rows:
-        markdown += "| " + " | ".join(map(str, row)) + " |\n"
-
-    # Write the Markdown content to the specified file
-    with open(file_path, "w") as f:
-        f.write(markdown)
-    return "checked"
-
-
 if __name__ == "__main__":
     aboutdata()
     createplots()
