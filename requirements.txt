@@ -1,0 +1,11 @@
+#These detail what packages are needed to run this file
+
+black==22.3.0
+click==8.1.3
+pytest==7.4.0
+pytest-cov==4.0.0
+pylint==2.15.3
+pandas==2.2.2
+matplotlib==3.9.2
+tabulate==0.9.0
+polars==1.7.1
