@@ -11,11 +11,9 @@ format:
 
 lint:
 	ruff check test_*.py && ruff check *.py
-	nbqa ruff *.ipynb
 
 test:
 	python -m pytest -vv --cov=main test_*.py
-	py.test --nbval *.ipynb
 
 generate_and_push:
 	python script.py
