@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/5fbee72a-0246-426a-a927-2c0456293bf1)
+
 # Mini Project: Polars Descriptive Statistics
 Adil Keku Gazder <br>
 ag825, adil.gazder@duke.edu <br>
